@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!--Exercício 10 do livro 100 exercícios.
+        Escreva um programa que calcule o perímetro e a área
+        de um triângulo, utilizando as formulas P=a+b+c e
+        A=(b*h)/2. onde a,b e c são os lados do triângulo e
+        h é a altura relativa ao lado b.
+    -->
+
+    <h1>Calculadora de área e<br> perímetro de triangulos</h1>
+    <div id="container">
+    <form action="" name="frm" id="frm">
+        <label for="lado_a">insira valor do lado "a/base" em cm</label>
+        <input type="text" size="5" id="lado_a" name="lado_a">
+        <br>
+        <label for="lado_b">insira valor do lado "b" em cm</label>
+        <input type="text" size="5" id="lado_b" name="lado_b">
+        <br>
+        <label for="lado_c">insira valor do lado "c" em cm</label>
+        <input type="text" size="5" id="lado_c" name="lado_c">
+        <br>
+        <label for="altura">insira altura "h" em cm</label>
+        <input type="text" size="5" id="altura" name="altura">
+        <br>
+        <input type="reset" value="limpar" id="limpar" class="btn" onclick="limpar()">
+        <input type="button" value="calcular" id="calcular" class="btn">
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
